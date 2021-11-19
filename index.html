@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shortly</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<style>
+  .footer-section-1 {
+    background: url('images/bg-boost-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 350px;
+    background-color: #3a3053;
+
+  }
+
+  .shortbg {
+    background: url('images/bg-shorten-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #3a3053;
+  }
+</style>
+
+<body>
+  <div class="wrap">
+    <!----header starts----->
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-8 col-xs-12 col-lg-8">
+            <!--menulogo-->
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">
+                <img src="images/logo.svg">
+
+              </a>
+              <a data-toggle="collapse" data-target="#navcontentmobile" aria-controls="navcontentmobile"
+                aria-expanded="false"><img id="flip" class="mobiletogle" src="images/toggle.png" alt="toggle"></a>
+            </div>
+            <!--navbar-->
+            <div class="menu desktop">
+              <ul class="nav navbar-nav ">
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Resources</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4 col-xs-12 col-lg-4 col-md-4 desktop">
+            <hr>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Login</a></li>
+              <button class="btn mobbtn ">Sign Up</button>
+            </ul>
+
+
+          </div>
+          <div class="collapse" id="navcontentmobile">
+            <div class="menu">
+              <ul class="nav navbar-nav mobilenav">
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Resources</a></li>
+                <hr>
+                <li><a href="#">Login</a></li>
+                <li><button class="btn mobbtn ">Sign Up</button></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-----header ends------>
+    <!--bannerarea section-->
+    <section class="bannerarea">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-5  col-xs-12 bannerimgesection mobile">
+            <img src="images/illustration-working.svg" alt="banner">
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-7  col-xs-12">
+            <div class="banner-section_content">
+              <h1 class="banner-section-heading"> More than just shorter links </h1>
+              <p> Build your brand's recognition and get detailed insights on how your links are performing. </p>
+              <button class="btn btn-default btn-lg btn-default2">Get Started</button>
+            </div>
+
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-5  col-xs-12 bannerimgesection desktop">
+            <img src="images/illustration-working.svg" alt="banner">
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!--end bannerarea section-->
+
+
+    <!--Start search section section-->
+    <section class="apiarea">
+      <div class="container-fluid searcsectionbg">
+
+        <div class="container bgsection3">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <div class="shortbg">
+
+                <form action="">
+                  <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                    <div class="form-group search">
+                      <label for="text"></label>
+                      <input type="text" class="form-control" placeholder="Shorten a link here" name="biglink"
+                        id="biglink" value="Shorten a link here" />
+                      <div id="erroroutput"></div>
+
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                    <div class="form-group">
+                      <button class="btn btn-default btn-lg searchbtnmore btn-default3 mobilbtn" id="getlink"
+                        name="getlink">Shorten It!</button>
+                    </div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div id="successoutput"></div>
+      </div>
+  </div>
+  </section>
+
+  <!--end search section section-->
+  <!--card section-->
+  <section class="iconsection">
+    <div class="container ">
+      <div class="row">
+
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <div class="Statistics">
+            <h2> Advanced Statistics</h2>
+            <p>Treack how your links are performanice across the web with our advanced statistics dasboard</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <div class="card card1">
+            <div class="cardinner">
+              <div class="icon1 icon">
+                <img class="card-img-bottom" src="images/icon-brand-recognition.svg" alt="Card image">
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Brand Recognition</h4>
+                <p class="card-text">Boost your brand recognition with
+                  each click. Generic links don't mean a
+                  thing. Branded links help instil
+                  confidence in your content.
+                </p>
+
+              </div>
+
+            </div>
+          </div>
+
+
+          <div class="card card2">
+            <div class="cardinner">
+              <div class="icon2 icon">
+                <img class="card-img-bottom" src="images/icon-detailed-records.svg" alt="Card image">
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Detailed Records</h4>
+                <p class="card-text">Gain insights into who is clicking your
+                  links. Knowing when and where
+                  people engage with your content
+                  helps inform better decisions.</p>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="card card3">
+            <div class="cardinner">
+              <div class="icon3 icon">
+                <img class="card-img-bottom" src="images/icon-fully-customizable.svg" alt="Card image">
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Fully Customizable</h4>
+                <p class="card-text">Improve brand awareness and
+                  content discoverability through
+                  customizable links, supercharging
+                  audience engagement.</p>
+
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+<!---end card section--->
+
+  <!--startfooter-->
+  <section class="footer-section-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-sm-12 col-xm-12 Boost ">
+          <h2>Boost your links today</h2>
+          <button class="button btn starteded btn-default2">Get Started</button>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer-section">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-sm-2">
+          <img src="images/footer-logo.png">
+        </div>
+        <div class="col-sm-2">
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Features</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#">Link Shortening</a>
+            </li>
+            <li>
+              <a href="#">Branded Links</a>
+            </li>
+            <li>
+              <a href="#">Analytics</a>
+            </li>
+
+          </ul>
+
+        </div>
+        <div class="col-sm-2">
+
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Resources</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#">Blog</a>
+            </li>
+            <li>
+              <a href="#">Developers</a>
+            </li>
+            <li>
+              <a href="#">Support</a>
+            </li>
+
+          </ul>
+
+        </div>
+        <div class="col-sm-2">
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Company</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Our Team</a>
+            </li>
+            <li>
+              <a href="#">Careers</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+
+        </div>
+
+        <div class="col-sm-4 social-icons-footer">
+          <a href="#" style="padding: 10px;"><img src="images/icon-facebook.svg"> </a>
+          <a href="#" style="padding: 10px;"><img src="images/icon-twitter.svg"></a>
+          <a href="#" style="padding: 10px;"><img src="images/icon-pinterest.svg"></a>
+          <a href="#" style="padding: 10px;"><img src="images/icon-instagram.svg"></i> </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="js/custom.js"></script>
+  
+
+  <!--endfooter-->
+
+</body>
+
+</html>
