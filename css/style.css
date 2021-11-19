@@ -7,13 +7,7 @@ body {
 	
 	
 }
-/*.wrap {
-	margin:0 auto;
-	width:100%;
-	max-width:1440px;
-	background:url(../images/desktop-design.jpg) no-repeat center top;
-	opacity:0.6;
-}*/
+
 header {
 	padding:40px 0;
 }
@@ -498,9 +492,9 @@ p {
 }
 @media screen and (max-width:574px) {
 	
-.bannerimgesection img {
-    width: auto;
-}
+	.bannerimgesection img {
+		width: auto;
+	}
 .banner-section_content{
 	padding:0px;
 }
